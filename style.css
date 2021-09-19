@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  display: inline-flex;
+  background-color: black;
+  padding: 10px;
+  width: 100%;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+
+.p_satu,
+.p_dua,
+.p_tiga {
+  padding: 10px;
+  column-count: 4;
+  column-rule: 2px solid black;
+  column-gap: 20px;
+  column-fill: balance;
+}
+
+.judul {
+  padding: 20px 10px;
+  column-span: all;
+}
+
+.footer {
+  background-color: black;
+  padding: 5px 10px 20px 10px;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-size: 12px;
+}
+
+p {
+  text-align: justify;
+}
